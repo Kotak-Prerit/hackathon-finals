@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Della Respira', serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    position: fixed;
+    background: #fff;
+    height: 100px;
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+ul{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    align-self: center;
+    height: 60px;
+    width: 25px;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.hamburger{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 25px;
+}
+
+.logo_text{
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.anchor{
+    text-decoration: none;
+    font-size: 25px;
+    color: #d1a400;
+}
+
+.three_line{
+    cursor: pointer;
+}
+
+.heading{
+    height: 80%;
+    width: 700px;
+    color: #222226;
+    margin-top: 150px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.insta{
+    margin-top: 13px;
+}
+
+.youtube{
+    margin-top: 18px;
+}
+
+.twitter{
+    margin-top: 16px;
+}
+
+.in{
+    margin-top: 13px;
+}
+
+.pint{
+    margin-top: 13px;
+}
+
+.description{
+    display: flex;
+    width: 75%;
+    padding: 50px;
+    border-bottom: 1px solid lightgray;
+}
+
+.left{
+    font-size: 21px;
+    width: 50%;
+    padding: 0 70px;
+}
+
+.right{
+    font-size: 13px;
+    width: 50%;
+}
+
+.sechead{
+    font-size: 13px;
+    text-align: center;
+    margin: 25px;
+    color: #979797;
+    letter-spacing: 2px;
+}
+
+.mission{
+    text-align: center;
+    font-size: 49px;
+    margin: 30px;
+    color: #222226;
+    width: 60%;
+    line-height: 1.1;
+}
+
+.mission:hover{
+    text-decoration: dashed;
+    cursor: pointer;
+}
+
+.secimg{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 75%;
+    position: relative;
+    margin: 50px 0 50px 100px;
+}
+
+.content{
+    position: absolute;
+    width: 40%;
+    background: #f0f0f0;
+    padding: 30px;
+    right: 10%;
+}
+
+.chead{
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+
+.ctext{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+button{
+    font-size: 12px;
+    padding: 15px 20px;
+    background: #d1a400;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #f0f0f0;
+}
+
+.copyright{
+    font-size: 15px;
+    text-decoration: none;
+    color: #979797;
+    width: 50%;
+    margin-right: 10%;
+}
+
+.footer-ul{
+    margin-right: 10px;
+    width: 50%;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+
+.fl{
+    margin-right: 10px;
+}
